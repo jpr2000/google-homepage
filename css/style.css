@@ -19,8 +19,15 @@ main img {
     padding: 1em;
     margin: 2em;
     border-width: 1px;
+    border-style: solid;
     background-color: #fff;
     border-color: #d9d5d5;
+    font-size: 0.9em;
+}
+
+.search-bar:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgb(223,225,229);
 }
 
 .buttons {
@@ -58,13 +65,14 @@ nav {
 ul {
     list-style-type: none;
     display: inline;
-    word-spacing: 0.5em;
+    /* word-spacing: 0.5em; */
 }
 
 li {
     display: inline;
     font-size: .7em;
     color: #333;
+    margin: 0.5em;
 }
 
 .left, .right {
@@ -99,4 +107,12 @@ html, body, .container {
     display: grid;
     grid-template-rows: 10% auto 5%;
     align-content: space-between;
+}
+
+.profile {
+    background-image: url("https://lh3.googleusercontent.com/-mIIUtqk4E1g/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rfM-wz83nTNSe99IGuq48VAHwWDGw.CMID/s32-c/photo.jpg");
+    height: 30px;
+    border-radius: 100%;
+    position: relative;
+    top: 1em;
 }
