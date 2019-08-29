@@ -5,6 +5,8 @@
 
 main {
     text-align: center;
+    position: relative;
+    bottom: 10em;
 }
 
 main img {
@@ -12,7 +14,7 @@ main img {
 }
 
 .search-bar {
-    width: 450px;
+    width: 550px;
     border-radius: 2em;
     padding: 1em;
     margin: 2em;
@@ -80,4 +82,21 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+footer {
+    background-color: rgb(242, 242, 242);
+    padding: 22px;
+    line-height: 0;
+    grid-row: 3 / 4;
+}
+
+html, body, .container {
+    height: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 10% auto 5%;
+    align-content: space-between;
 }
